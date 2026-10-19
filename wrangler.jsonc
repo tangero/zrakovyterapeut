@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/configuration.html",
+  "name": "zrakovyterapeut",
+  "compatibility_date": "2025-12-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "src/index.js",
+  "routes": [
+    { "pattern": "zrakovyterapeut.cz/*", "zone_name": "zrakovyterapeut.cz" },
+    { "pattern": "www.zrakovyterapeut.cz/*", "zone_name": "zrakovyterapeut.cz" }
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "none",
+    "run_worker_first": true
+  },
+  "observability": {
+    "enabled": true
+  }
+}

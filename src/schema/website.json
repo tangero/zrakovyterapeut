@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://zrakovyterapeut.cz/#website",
+      "url": "https://zrakovyterapeut.cz/",
+      "name": "Zrakovýterapeut.cz",
+      "inLanguage": "cs",
+      "description": "Nezávislý rozcestník zrakové terapie v Česku: diagnózy, vyšetření, cvičení a přehled pracovišť."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{canonical}}#webpage",
+      "url": "{{canonical}}",
+      "name": "{{schemaname}}",
+      "inLanguage": "cs",
+      "isPartOf": { "@id": "https://zrakovyterapeut.cz/#website" }
+    }
+  ]
+}

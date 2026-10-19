@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "{{canonical}}#article",
+  "url": "{{canonical}}",
+  "headline": "{{schemaname}}",
+  "inLanguage": "cs",
+  "datePublished": "{{date}}",
+  "dateModified": "{{date}}",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://zrakovyterapeut.cz/#org",
+    "name": "Zrakovýterapeut.cz",
+    "url": "https://zrakovyterapeut.cz/"
+  },
+  "publisher": {
+    "@id": "https://zrakovyterapeut.cz/#org"
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://zrakovyterapeut.cz/#website",
+    "url": "https://zrakovyterapeut.cz/",
+    "name": "Zrakovýterapeut.cz"
+  }
+}

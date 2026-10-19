@@ -1,0 +1,13 @@
+{
+  "name": "zrakovyterapeut",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rozcestník zrakové terapie v Česku — zrakovyterapeut.cz",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "check": "node --check src/index.js && node --check src/build.mjs && echo OK"
+  }
+}
